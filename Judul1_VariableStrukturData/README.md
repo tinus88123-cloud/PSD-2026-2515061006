@@ -133,3 +133,14 @@ Baris 78: Memberi tahu bahwa pilihan salah.
 baris 80: mengecek apakah file dijalankan sebagai program utama
 
 baris 81: Memanggil fungsi main() untuk memulai program.
+
+# OUTPUT PROGRAM
+
+<img width="582" height="736" alt="Screenshot 2026-04-28 185105" src="https://github.com/user-attachments/assets/1738ab70-0349-4378-a2be-0681fa9f1232" />
+
+<img width="509" height="806" alt="Screenshot 2026-04-28 185200" src="https://github.com/user-attachments/assets/20cfe586-129f-4a29-82fa-40b1511a7586" />
+
+Output program menunjukan proses memasukan , mengeluarkan serta menampilkan antrean  pasien. admin memilih 4 opsi yang terdiri dari 1.tambah pasien, 2.layani pasien , 3.lihat daftar antrean , 4. keluar . ketika admin memilih opsi 1 , maka admin diminta untuk memasukan nama serta keluhan dari pasien , dimana setiap input akan dibuat node baru dan ditambahkan ke dalam list secara  berurutan di bagian akhir , setelah itu admin juga dapat memilih opsi 2 untuk memanggil / mengeluarkan pasien dari antrean ketika sudah dilyani yang dimana program akan mengambil / mengeluarkan node yang sudah ada di awal dalam urutan list , admin juga dapat melihat daftar antrean dengan memilih opsi no 3 , dan terakhir opsi no 4 untuk menghentikan program.
+
+# link YOUTUBE
+
