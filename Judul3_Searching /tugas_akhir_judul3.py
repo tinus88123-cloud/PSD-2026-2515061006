@@ -21,7 +21,7 @@ def main():
             print("Input tidak valid, silakan masukkan angka!")
     counter = sequential_search(data, n, target)
     if counter > 0:
-        print(f"Selamat Nomor Anda {target} adalah Nomor Keberuntungan")
+        print(f"Selamat Nomor Anda {target} adalah Nomor Keberuntungan dan  angka anda muncul sebanyak {counter}")
         print(f"Selamat Anda berhak membawa hadian IPONG PROMAG")
     else:
         print(f"Maaf nomor anda {target} belum beruntung, coba lagi .")
