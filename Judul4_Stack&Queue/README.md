@@ -1,8 +1,11 @@
-# SIMULASI NAVIGASI BROWSERR dengan Menggunakan Stack Linked list 
+# PROGRAM SISTEM ANTREAN RUMAH SAKIT dengan Menggunakan Stack Linked list 
 
 Program ini merupkan simulasi sistem antrean rumah sakit yang dibuat menggunakan struktur data queue linked list . program ini digunakan untuk mengatur urutan antran pasien yang datang dan dilayani berdasarkan prinsip FIFO. yaitu orang yang pertama datang akan dilayani terlebih dahulu . Kenapa memilih stack linked list bukan stack array ? , karna linked list membuat ukuran secara dinamsi , bukan statis.
 
 # Source code
+<img width="415" height="461" alt="Screenshot 2026-05-16 204835" src="https://github.com/user-attachments/assets/29e2ea44-9599-42df-8d99-b9606733c118" />
+
+<img width="332" height="443" alt="Screenshot 2026-05-16 204955" src="https://github.com/user-attachments/assets/855aebc0-b8d4-4fe8-aa8d-4cd0ba61dd86" />
 
 # penjelasan
 
@@ -132,7 +135,23 @@ Line 75: Kondisi untuk memastikan program hanya berjalan jika file ini dieksekus
 
 Line 76: Memanggil dan menjalankan fungsi main().
 # OUTPUT PROGRAM
+<img width="273" height="219" alt="Screenshot 2026-05-16 214303" src="https://github.com/user-attachments/assets/560a7dc1-883b-450c-a35a-9910ed3349cd" />
 
+Pada gambar pertama, pengguna melakukan proses penambahan pasien ke dalam sistem antrean (enqueue) dengan memilih Menu 1 sebanyak dua kali secara berurutan. Pengguna pertama-tama memasukkan nama pasien "yanto" dan kemudian memasukkan nama pasien "tono", di mana program berhasil merespons dengan mencetak pesan konfirmasi bahwa kedua pasien tersebut telah sukses masuk ke dalam barisan antrean rumah sakit.
+
+<img width="244" height="96" alt="Screenshot 2026-05-16 214355" src="https://github.com/user-attachments/assets/13452a31-5889-44f8-9c41-707290f291df" />
+
+Pada gambar kedua, pengguna memilih Menu 4 untuk melihat seluruh daftar pasien yang sedang mengantre saat ini (display). Program kemudian memproses permintaan tersebut dengan menelusuri struktur linked list dari urutan terdepan hingga paling belakang, lalu menampilkan nama-nama pasien yang aktif di terminal secara berurutan berdasarkan waktu kedatangan mereka, yaitu "yanto tono".
+
+<img width="209" height="94" alt="Screenshot 2026-05-16 214327" src="https://github.com/user-attachments/assets/c3041572-c726-491c-8d8d-cf47a925295b" />
+
+Pada gambar ketiga, pengguna memilih Menu 3 untuk mengecek atau mengintip siapa pasien yang berada di urutan paling depan saat ini (peek). Program langsung mendeteksi data pada pointer terdepan tanpa mengubah struktur atau menghapus data apa pun, sehingga memunculkan output informasi yang menyatakan bahwa "yanto" adalah pasien yang berada di posisi paling depan dan siap untuk dilayani berikutnya.
+
+<img width="215" height="295" alt="Screenshot 2026-05-16 214405" src="https://github.com/user-attachments/assets/c79d81d6-88be-4f27-8b5d-a3f607cc13de" />
+
+Pada gambar keempat, pengguna memilih Menu 2 sebanyak tiga kali berturut-turut untuk melakukan proses pelayanan pasien (dequeue). Pada pemanggilan pertama dan kedua, program berhasil memanggil sekaligus menghapus pasien "yanto" lalu "tono" dari antrean sesuai prinsip FIFO (First In, First Out), namun pada pemanggilan ketiga, program mengeluarkan pesan "Antrean sedang kosong" karena seluruh pasien di dalam sistem sudah
 # LINK YOUTUBE 
+
+https://youtu.be/1Q51bFKU3e0
 
 
