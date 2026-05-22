@@ -165,6 +165,26 @@ Line 125: Syarat agar kode Python ini hanya dieksekusi jika dijalankan secara la
 Line 126: Memanggil fungsi main() untuk mulai menjalankan seluruh program.
 
 # Output program
+<img width="502" height="722" alt="Screenshot 2026-05-22 231712" src="https://github.com/user-attachments/assets/31c326b1-a9c1-4d32-97b8-bc0bfa65afe6" />
+
+Gambar pertama menunjukkan proses pendaftaran tiga tugas baru ke dalam sistem: "menyapu halaman" (waktu 10), "mengerjakan matdis" (waktu 6), dan "mengerjakan skpl" (waktu 3). Sistem secara otomatis menyusun tugas-tugas ini ke dalam struktur pohon (BST) untuk diurutkan berdasarkan waktu.
+
+<img width="457" height="214" alt="Screenshot 2026-05-22 231740" src="https://github.com/user-attachments/assets/b521d679-2fd7-4275-b4d1-53f9efe883be" />
+
+Gambar kedua menampilkan eksekusi fitur pembatalan. Saat jadwal waktu 10 dihapus, sistem melacak antrean dan langsung mencabut tugas "menyapu halaman" secara permanen dari memori pohon.
+
+<img width="411" height="89" alt="Screenshot 2026-05-22 231804" src="https://github.com/user-attachments/assets/746ff494-2117-41d8-ab95-fce314f16f2e" />
+
+Gambar ketiga memperlihatkan sisa tugas di dalam antrean. Sesuai prinsip kerja BST, data yang tersisa otomatis ditampilkan secara rapi dan berurutan dari waktu yang paling awal (angka 3) menuju waktu yang lebih lama (angka 6).
+
+<img width="564" height="488" alt="Screenshot 2026-05-22 231820" src="https://github.com/user-attachments/assets/b7a4bddd-3ef3-4196-8a12-024ea0c60b17" />
+
+Gambar keempat menunjukkan proses inti penjadwalan. Eksekusi pertama otomatis mengambil dan membuang jadwal paling awal (waktu 3: "mengerjakan skpl"). Pada eksekusi kedua, sistem kembali mengambil antrean terawal berikutnya yang masih tersisa (waktu 6: "mengerjakan matdis").
+
+<img width="430" height="185" alt="Screenshot 2026-05-22 231829" src="https://github.com/user-attachments/assets/0d91c16d-0fa7-4d49-98fa-903ac5aa318d" />
+
+Gambar terakhir menampilkan proses pengakhiran aplikasi. Pemilihan opsi keluar langsung menghentikan seluruh putaran menu utama dan menutup program sepenuhnya.
 
 # linkYoutube
 
+https://youtu.be/4P7A_zNbO6o
