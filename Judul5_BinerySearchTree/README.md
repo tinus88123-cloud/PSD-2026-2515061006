@@ -3,6 +3,13 @@ Program ini merupakan simulasi untuk penjadwalan tugas / pekerjaan yang dibuat d
 
 
 # source code
+<img width="759" height="923" alt="Screenshot 2026-05-22 222747" src="https://github.com/user-attachments/assets/a44f5d53-ceab-43be-8dcb-fcd6df246358" />
+
+<img width="754" height="696" alt="Screenshot 2026-05-22 222818" src="https://github.com/user-attachments/assets/4aa8aaee-ede4-4880-a271-d8489b350b6d" />
+
+<img width="828" height="882" alt="Screenshot 2026-05-22 222842" src="https://github.com/user-attachments/assets/b979572a-aa14-459a-9a63-1cbb04f5454a" />
+
+<img width="668" height="279" alt="Screenshot 2026-05-22 222921" src="https://github.com/user-attachments/assets/a99cab9d-c2a6-4b39-97cb-0e671d298d79" />
 
 # Penjelasan
 Line 1: Membuat kelas Node sebagai cetak biru (struktur dasar) untuk setiap data tugas.
