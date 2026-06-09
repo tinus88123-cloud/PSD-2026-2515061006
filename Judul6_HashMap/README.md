@@ -43,5 +43,26 @@ Pada baris 100–115 merupakan kelanjutan dari proses pada fungsi main(). Pada b
 
 # Output Program
 
+<img width="314" height="246" alt="Screenshot 2026-06-09 194113" src="https://github.com/user-attachments/assets/d6f8408f-d554-49d4-96cc-c13dfbb31ab2" />
+
+program menjalankan antarmuka menu utama dan pengguna memilih menu 1 untuk menambahkan dua data pekerja secara berurutan. Pekerja pertama yang dimasukkan bernama "yanto" dengan ID 515151, kemudian dilanjutkan dengan pekerja kedua bernama "tono" dengan ID 617626. Keduanya berhasil ditambahkan dan program menampilkan pesan konfirmasi keberhasilan.
+ 
+<img width="220" height="218" alt="Screenshot 2026-06-09 194132" src="https://github.com/user-attachments/assets/7d30d5a7-55c8-4918-880e-7639ea5a145c" />
+
+pengguna memilih menu 3 untuk menampilkan seluruh isi data pekerja di dalam struktur hash map. Layar menampilkan tabel hash berkapasitas 10 indeks (0-9), di mana data "yanto" (515151) masuk ke indeks ke-1, sedangkan data "tono" (617626) masuk ke indeks ke-6 berdasarkan hasil perhitungan fungsi modulo. Slot indeks lainnya terlihat masih kosong (NULL).
+
+<img width="236" height="109" alt="Screenshot 2026-06-09 194145" src="https://github.com/user-attachments/assets/9727047d-8a3e-4ba3-97b6-22a076d40eeb" />
+
+pengguna memilih menu 2 yang berfungsi untuk menghapus data pekerja dari sistem. Pengguna menginputkan ID 617626 (yang merupakan ID milik "tono"), lalu program mengeksekusi proses penghapusan dan mengembalikan pesan bahwa data pekerja dengan ID tersebut telah sukses dihapus.
+
+<img width="219" height="106" alt="Screenshot 2026-06-09 194151" src="https://github.com/user-attachments/assets/61e0c5cd-bca5-46ef-82e2-6ed024f45e4a" />
+
+pengguna menguji fitur pencarian dengan memilih menu 4. Pengguna mencoba mencari pekerja dengan memasukkan ID 617626. Karena ID tersebut baru saja dihapus pada langkah sebelumnya  maka program dengan benar merespons dengan pesan "Pekerja tidak ditemukan".
+
+<img width="167" height="118" alt="Screenshot 2026-06-09 194157" src="https://github.com/user-attachments/assets/6999b8c4-d5dd-41d0-a22b-36d5f86c36ec" />
+
+pengguna memilih menu 5 yang berfungsi untuk menghentikan aplikasi. Program merespons dengan mencetak tulisan "Program selesai.", lalu perulangan utama berhenti dan sistem keluar sepenuhnya
 
 # Link YouTube
+
+https://youtu.be/0nMsMeggChA
